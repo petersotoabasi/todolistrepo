@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color:lightgoldenrodyellow;
+}
+
+.container{
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   margin: 50px auto;
+   width: 30%;
+   padding: 50px;
+   color: white;
+   background:black;
+   border-radius: 15px;
+}
+
+h1{
+    margin-bottom: 20px;
+}
+
+#task-input{
+    width: 250px;
+    padding: 15px;
+}
+
+button{
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background: red;
+    font-size: 15px;
+    margin-left: 10px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.delete{
+    padding: 20px;
+    border: 2px solid red;
+    margin-top: 20px;
+}
